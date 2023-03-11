@@ -1,0 +1,136 @@
+body {
+    background-image: linear-gradient(#171a21, #1b2838);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment:fixed;
+    width: 100%;
+    height: auto;
+    overflow:hidden;
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, 
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+.area-login{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.login{
+    border-radius: 20% 0;
+    border: 1px solid #66c0f4;
+    box-shadow: 1px 1px 15px #66c0f4a4;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-image: linear-gradient(#171a21, #1b2838);
+    width: 400px;
+    height: 520px;
+    padding: 35px;
+}
+
+.login form{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+
+.login input{
+    padding-left: 10px;
+    margin-top: 10px;
+    background-color:#40404062 ;
+    border: none;
+    height: 45px;
+    outline: none;
+    border-radius: 8px;
+    color:#e3e3e3;
+}
+
+.logo-login{
+    width: 400px;
+    height: auto;
+}
+
+input::placeholder{
+    color:#CBD0F7 ;
+    font-size: 14px;
+    
+}
+
+p {
+    text-align: center;
+    color: #5c5c5c;
+}
+
+input[type="submit"]{
+    display: block;
+    background-color: #00000020;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+input[type="submit"]:hover{
+    background-color: #007a9c;
+}
+
+a {
+    font-family: ;
+    color:#ffffffad;
+    text-decoration: none;
+    margin-left: 10px;
+    transition: 0.5s;
+}
+
+a:hover {
+    opacity: 0.7;
+   color: #0bb4e3;
+   text-shadow: 0 0 15px #06caff;
+}
+
+.dropbtn {
+    background-color: transparent;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+  }
+
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    overflow-y: scroll;
+    height: 300px;
+    display: none;
+    position: absolute;
+    border: 1px solid #66c0f473;
+    background-color: #1b283893;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.384);
+    z-index: 1;
+    border-radius: 30px;
+  }
+  
+  .dropdown-content a {
+    color: rgb(255, 255, 255);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+
+  }
+  .dropdown-content a:hover {
+    opacity: 0.7;
+    color: #0bb4e3;
+    text-shadow: 0 0 15px #06caff;
+  }
+
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  .dropdown:hover .dropbtn {color: #06caff; text-shadow: 0 0 15px #06caff;}
+  
