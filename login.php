@@ -27,7 +27,7 @@ include_once __DIR__ . ('/language/translate.php');
         <a class="link" href="?language=es-mx"><?php echo $keyword["lan_es"]; ?></a>
         <a class="link" href="?language=fr-fr"><?php echo $keyword["lan_fr"]; ?></a>
         <a class="link" href="?language=es-mx"><?php echo $keyword["lan_de"]; ?></a>
-        <a class="link" href="?language=es-mx"><?php echo $keyword["lan_jp"]; ?></a>
+        <a class="link" href="?language=jp-jp"><?php echo $keyword["lan_jp"]; ?></a>
         <a class="link" href="?language=es-mx"><?php echo $keyword["lan_por"]; ?></a>
         <a class="link" href="?language=es-mx"><?php echo $keyword["lan_cn"]; ?></a>
     </div>
