@@ -32,7 +32,7 @@ include_once __DIR__ . ('/language/translate.php');
         <a class="link" href="?language=es-mx"><?php echo $keyword["lan_cn"]; ?></a>
     </div>
 </div>
-
+ 
 <body>
 
     <div class="area-login">
