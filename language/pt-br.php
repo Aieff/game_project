@@ -29,8 +29,13 @@ $keyword = [
 
     "lan_cn" => "Chinês (CN)",
 
-    "login_placheholder_user" => "Usuário",
+    "login_placheholder_email" => "E-mail",
 
     "login_placheholder_senha" => "Senha",
     
+    "login_placheholder_csenha" => "Confirmar senha",
+
+    "cadastrar_salvar" => "SALVAR",
+
+    "cadastrar_voltar" => "VOLTAR",
 ];
