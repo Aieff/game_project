@@ -34,7 +34,7 @@ include_once __DIR__ . ('/language/translate.php');
     </div>
 </div>
 
-<body>
+<body> 
 
     <div class="area-login">
         <div class="login">
