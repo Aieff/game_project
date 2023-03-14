@@ -18,6 +18,7 @@ include_once __DIR__ . ('/language/translate.php');
 
     <div class="container-fluid" id="contconfig">
 
+    <video class="bg-login" src="img/bg-login-slider.mp4" type="video.mp4" muted autoplay loop></video>
 
 <div class="dropdown">
     <button class="dropbtn"><?php echo $keyword["lan_idioma"]; ?></button>
@@ -26,10 +27,10 @@ include_once __DIR__ . ('/language/translate.php');
         <a class="link" href="?language=en-us"><?php echo $keyword["lan_en"]; ?></a>
         <a class="link" href="?language=es-mx"><?php echo $keyword["lan_es"]; ?></a>
         <a class="link" href="?language=fr-fr"><?php echo $keyword["lan_fr"]; ?></a>
-        <a class="link" href="?language=es-mx"><?php echo $keyword["lan_de"]; ?></a>
+        <a class="link" href="?language=al-de"><?php echo $keyword["lan_de"]; ?></a>
         <a class="link" href="?language=jp-jp"><?php echo $keyword["lan_jp"]; ?></a>
-        <a class="link" href="?language=es-mx"><?php echo $keyword["lan_por"]; ?></a>
-        <a class="link" href="?language=es-mx"><?php echo $keyword["lan_cn"]; ?></a>
+        <a class="link" href="?language=pl-pl"><?php echo $keyword["lan_pl"]; ?></a>
+        <a class="link" href="?language=ch-cn"><?php echo $keyword["lan_cn"]; ?></a>
     </div>
 </div>
  
@@ -43,8 +44,8 @@ include_once __DIR__ . ('/language/translate.php');
         </div>
 
     <form method="POST">
-        <input type="text" name="email-login" placeholder="<?php echo $keyword["login_placheholder_email"]; ?>" autofocus>
-        <input type="password" name="senha-login" placeholder="<?php echo $keyword["login_placheholder_senha"]; ?>"><br>
+        <input class="input_hover" type="text" name="email-login" placeholder="<?php echo $keyword["login_placheholder_email"]; ?>" autofocus>
+        <input class="input_hover" type="password" name="senha-login" placeholder="<?php echo $keyword["login_placheholder_senha"]; ?>"><br>
         <input type="submit" value="<?php echo $keyword["login_logar"]; ?>">       
     </form>
 

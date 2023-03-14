@@ -2,31 +2,42 @@
 /**
  * As keywords serão os indices
  * usados para realizar a tradução.
- * 
+ * Espanhol
  */
 $keyword = [
-    "titulo" => "Athem",
+    "titulo" => "Alpha",
 
-    "login_logar" => "login",
+    "login_logar" => "Entrar",
 
-    "lan_pt" => "Português (BR)",
+    "login_cadastrar" => "Registrar",
 
-    "lan_en" => "Inglês (EUA)",
+    "lan_idioma" => "IDIOMA",
 
-    "lan_es" => "Espanhol (ESP)",
+    "lan_pt" => "Portugués (BR)",
 
-    "lan_fr" => "Francês (FR)",
+    "lan_pl" => "Polaco (PL)",
+
+    "lan_en" => "Inglés (EUA)",
+
+    "lan_es" => "Español (ESP)",
+
+    "lan_fr" => "Francés (FR)",
     
-    "lan_de" => "Alemão (DE)",
+    "lan_de" => "Alemán (DE)",
 
-    "lan_jp" => "Japonês (JP)",
+    "lan_jp" => "japonés (JP)",
 
-    "lan_por" => "Portugues (PT)",
+    "lan_cn" => "Chino (CN)",
 
-    "lan_fr" => "Francês",
+    "login_placheholder_email" => "Correo electrónico",
 
-    "login_placheholder_user" => "Usuário",
+    "login_placheholder_senha" => "Contraseña",
+    
+    "login_placheholder_csenha" => "Confirmar seña",
 
-    "login_placheholder_senha" => "Senha",
+    "cadastrar_salvar" => "AHORRAR",
+
+    "cadastrar_voltar" => "VOLVER",
+
 ];
 

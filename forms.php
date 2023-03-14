@@ -18,17 +18,19 @@ include_once __DIR__ . ('/language/translate.php');
 
     <div class="container-fluid" id="contconfig2">
 
+    <video class="bg-login" src="img/bg-login-slider.mp4" type="video.mp4" muted autoplay loop></video>
+
 <div class="dropdown">
     <button class="dropbtn"><?php echo $keyword["lan_idioma"]; ?></button>
     <div class="dropdown-content">
-        <a href="?language=pt-br"><?php echo $keyword["lan_pt"]; ?></a>
-        <a href="?language=en-us"><?php echo $keyword["lan_en"]; ?></a>
-        <a href="?language=es-mx"><?php echo $keyword["lan_es"]; ?></a>
-        <a href="?language=fr-fr"><?php echo $keyword["lan_fr"]; ?></a>
-        <a href="?language=es-mx"><?php echo $keyword["lan_de"]; ?></a>
-        <a href="?language=es-mx"><?php echo $keyword["lan_jp"]; ?></a>
-        <a href="?language=es-mx"><?php echo $keyword["lan_por"]; ?></a>
-        <a href="?language=es-mx"><?php echo $keyword["lan_cn"]; ?></a>
+    <a class="link" href="?language=pt-br"><?php echo $keyword["lan_pt"]; ?></a>
+        <a class="link" href="?language=en-us"><?php echo $keyword["lan_en"]; ?></a>
+        <a class="link" href="?language=es-mx"><?php echo $keyword["lan_es"]; ?></a>
+        <a class="link" href="?language=fr-fr"><?php echo $keyword["lan_fr"]; ?></a>
+        <a class="link" href="?language=al-de"><?php echo $keyword["lan_de"]; ?></a>
+        <a class="link" href="?language=jp-jp"><?php echo $keyword["lan_jp"]; ?></a>
+        <a class="link" href="?language=pl-pl"><?php echo $keyword["lan_pl"]; ?></a>
+        <a class="link" href="?language=ch-cn"><?php echo $keyword["lan_cn"]; ?></a>
     </div>
 </div>
 
@@ -41,14 +43,14 @@ include_once __DIR__ . ('/language/translate.php');
    
         </div>
 
-        <input type="text" name="email" placeholder="<?php echo $keyword["login_placheholder_email"]; ?>" autofocus>
-        <input type="password" name="senha" placeholder="<?php echo $keyword["login_placheholder_senha"]; ?>">
-        <input type="password" name="csenha" placeholder="<?php echo $keyword["login_placheholder_csenha"]; ?>"><br>
+        <input type="text" name="email" id="email" placeholder="<?php echo $keyword["login_placheholder_email"]; ?>" autofocus>
+        <input type="password" name="senha" id="senha" placeholder="<?php echo $keyword["login_placheholder_senha"]; ?>">
+        <input type="password" name="csenha" id="csenha" placeholder="<?php echo $keyword["login_placheholder_csenha"]; ?>"><br>
         <input type="submit" value="<?php echo $keyword["cadastrar_salvar"]; ?>">
         
     </form>
 
-    <a class="btn_cadastrar" href="login.php"><?php echo $keyword["cadastrar_voltar"]; ?></a>
+    <a class="btn_voltar" href="login.php"><?php echo $keyword["cadastrar_voltar"]; ?></a>
 
     <p><?php echo $keyword["log_acc_create"]; ?><a href="#"><?php echo $keyword["log_create"]; ?></a></p>
     

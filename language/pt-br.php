@@ -2,12 +2,12 @@
 /**
  * As keywords serão os indices
  * usados para realizar a tradução.
- * 
+ * Português (Br)
  */
 $keyword = [
-    "titulo" => "Athem",
+    "titulo" => "Alpha",
 
-    "login_logar" => "login",
+    "login_logar" => "Entrar",
 
     "login_cadastrar" => "Cadastrar",
 
@@ -15,7 +15,7 @@ $keyword = [
 
     "lan_pt" => "Português (BR)",
 
-    "lan_por" => "Portugues (PT)",
+    "lan_pl" => "Polonês (PL)",
 
     "lan_en" => "Inglês (EUA)",
 
